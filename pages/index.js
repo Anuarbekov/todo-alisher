@@ -46,7 +46,7 @@ export default function Home() {
         <div key={item.key} className="todo-item">
           <span
             onClick={() => handleItemImportant(item.key)}
-            className={`${item.important ? "important" : ""}`}
+            className={`label ${item.important ? "important" : ""}`}
           >
             {item.label}
           </span>

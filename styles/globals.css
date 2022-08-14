@@ -34,3 +34,7 @@ span.important {
   font-weight: bold;
   color: steelblue;
 }
+.label{
+  cursor: pointer;
+  font-size: 30px;
+}
